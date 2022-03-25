@@ -1,0 +1,19 @@
+Для коректной работы нужно сделать следующее:
+
+1. подключить камеру(sudo raspi-config -> interface -> camera -> Yes)
+2. Подключить лидар в порт USB0
+3. убедится что установлены следующие библеотеки:
+serial
+math
+numpy
+struct
+matplotlib
+time
+io
+picamera
+logging
+socketserver
+threading
+http
+gpiozero
+socket
